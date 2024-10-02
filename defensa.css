@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    padding: 0px;
+    background-color: rgb(35, 35, 129);
+    height: 50px;
+}
+.menu-nav{
+    background-color: brown;
+    height: 50px;
+    }
+.slider-container{
+    display: grid;
+    background-color: rgb(47, 202, 151);
+    height: 50px;
+}
+
+.text-mosaic{
+    display: grid;
+    /*2 columnas. la primera 1fr y la segunda 2fr*/
+    grid-template-columns: 2fr 3fr;
+    gap: 5px;
+}
+.section-cards{
+    display: grid;
+    gap: 5px;
+}
+.text-mosaic1{
+    display: grid;
+    /*2 columnas. la primera 1fr y la segunda 2fr*/
+    grid-template-columns: 2fr 3fr;
+    gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section-cards{
+    display: grid;
+    gap: 5px;
+}
+.text-content{
+    background-color: rgb(18, 49, 190);
+    height: 200px;
+    padding: 10px;
+}
+.cards{
+    display: grid;
+    /*3 columnsa iguales*/
+    grid-template-columns: repeat(1,2fr);
+    gap: 5px;
+    padding: 5px;
+}
+.card{
+    padding: 20px;
+    background-color: rgb(224, 79, 12);
+    text-align: center;
+}
+
+.contact-photo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px 20px;
+    margin-bottom: 10px;
+}
+.celda1{
+    grid-template-columns: 1fr;
+    background-color: rgb(23, 88, 23);
+    height: 200px;
+    gap: 30px;
+}
+.celda2{
+    grid-column: 1fr 4fr;
+    background-color: rgb(16, 7, 155);
+    height: 200px;
+    gap: 100px;
+}
+.celda3{
+    grid-template-columns: 1fr;
+    background-color: rgb(1, 37, 15);
+    height: 200px;
+    gap: 100px;
+}
+.celda4{
+    grid-template-columns: 1fr;
+    background-color: rgb(16, 7, 155);
+    height: 200px;
+    gap: 100px;
+}
